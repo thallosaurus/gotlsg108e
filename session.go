@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/thallosaurus/gotlsg108g/pkg/gotlsg108g/pages"
+	"github.com/thallosaurus/gotlsg108g/pages"
 )
 
 func CheckLogin(client Client) bool {
