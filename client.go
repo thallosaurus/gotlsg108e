@@ -1,4 +1,4 @@
-package gotlsg108g
+package gotlsg108e
 
 type Client struct {
 	host  string

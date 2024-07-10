@@ -1,4 +1,4 @@
-package gotlsg108g
+package gotlsg108e
 
 import (
 	"encoding/json"
@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/thallosaurus/gotlsg108g/pages"
+	"github.com/thallosaurus/gotlsg108e/pages"
 )
 
 type VlanData map[string]SingleVlanConfig

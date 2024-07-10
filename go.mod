@@ -1,4 +1,4 @@
-module github.com/thallosaurus/gotlsg108g
+module github.com/thallosaurus/gotlsg108e
 
 go 1.22.3
 

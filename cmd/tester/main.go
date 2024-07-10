@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	driver "github.com/thallosaurus/gotlsg108g"
+	driver "github.com/thallosaurus/gotlsg108e"
 )
 
 func main() {

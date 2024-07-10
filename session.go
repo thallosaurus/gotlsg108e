@@ -1,11 +1,11 @@
-package gotlsg108g
+package gotlsg108e
 
 import (
 	"encoding/json"
 	"log"
 	"net/url"
 
-	"github.com/thallosaurus/gotlsg108g/pages"
+	"github.com/thallosaurus/gotlsg108e/pages"
 )
 
 func CheckLogin(client Client) bool {
