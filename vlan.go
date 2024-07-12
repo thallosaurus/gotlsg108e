@@ -110,6 +110,16 @@ func binmaskToArray(mask int64) []bool {
 
 }
 
+func arrayToBinmask(a []bool) int {
+	mask := 0
+	for index, v := range a {
+		if v {
+			mask += (1 << index)
+		}
+	}
+	return mask
+}
+
 func parseVlanConfig(data RawVlanData) VlanData {
 	m := make(VlanData)
 
